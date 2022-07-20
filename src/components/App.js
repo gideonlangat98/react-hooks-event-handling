@@ -5,9 +5,12 @@ import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
 
 function App() {
+  function handleClick(){
+    console.log('Click')
+  }
   return (
     <div>
-      <h3>onClick</h3>
+      <h3 onClick={handleClick}>onClick</h3>
       <Tickler />
       <hr />
 
